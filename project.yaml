@@ -1,0 +1,73 @@
+# .project metadata for Kured
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kured"
+name: "Kured"
+description: "Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS"
+type: "project"
+project_lead: "evrardjp" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#kured"
+    primary: true
+  - name: "#getting-help"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2022-09-14T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/208" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kubereboot/kured"
+
+website: "https://kured.dev"
+
+artwork: "https://landscape.cncf.io/logos/kured.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kubereboot/kured/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kubereboot/kured"
+
+social:
+  twitter: "https://twitter.com/kubereboot"
+
+security:
+  policy:
+    path: "https://github.com/kubereboot/.github/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kubereboot/kured/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kubereboot/kured/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kubereboot/kured/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kubereboot/kured/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kubereboot/kured/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"
+
+# CLOMonitor Score: 91/100
+# Documentation: 95 | License: 100 | Best Practices: 79 | Security: 73
