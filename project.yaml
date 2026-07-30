@@ -10,35 +10,38 @@ slug: "kured"
 name: "Kured"
 description: "Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS"
 type: "project"
-project_lead: "evrardjp" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "evrardjp"
+slack_channels:
   - name: "#kured"
+    workspace: "cncf"
     primary: true
-  - name: "#getting-help"
 
 maturity_log:
   - phase: "sandbox"
     date: "2022-09-14T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/208" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/208"
 
 repositories:
   - "https://github.com/kubereboot/kured"
+  - "https://github.com/kubereboot/charts"
+  - "https://github.com/kubereboot/website"
+  - "https://github.com/kubereboot/.allstar"
+  - "https://github.com/kubereboot/.github"
 
 website: "https://kured.dev"
 
 artwork: "https://landscape.cncf.io/logos/kured.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
+# TODO: Start the initiative to add ADOPTERS.md! We did not do that yet.
 # adopters:
 #   path: "https://github.com/kubereboot/kured/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "kubereboot/kured"
+package_managers:
+  docker: "ghcr.io/kubereboot/kured"
 
 social:
-  twitter: "https://twitter.com/kubereboot"
+  bluesky: "https://twitter.com/kubereboot"
+  linkedin: "https://www.linkedin.com/company/kubereboot/"
 
 security:
   policy:
