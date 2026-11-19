@@ -30,7 +30,7 @@ repositories:
 
 website: "https://kured.dev"
 
-artwork: "https://landscape.cncf.io/logos/kured.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kured"
 
 # TODO: Start the initiative to add ADOPTERS.md! We did not do that yet.
 # adopters:
